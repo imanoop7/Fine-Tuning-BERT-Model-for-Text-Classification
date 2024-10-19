@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+.venv/*
+
+# IDE files
+.vscode/
+.idea/
+
+# Dataset
+phishing_dataset.csv
+
+# Model outputs
+bert-phishing-classifier/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Add this line to your .gitignore
+hf_model_hub/
