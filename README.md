@@ -1,11 +1,6 @@
 # BERT Fine-Tuning for Phishing URL Detection
 
 This project fine-tunes a BERT model for phishing URL detection using the Hugging Face Transformers library.
-----
-## Additional Resource
-### My Detailed Article - [Link To Article](https://medium.com/@mauryaanoop3/fine-tuning-bert-for-phishing-url-detection-a-beginners-guide-619fad27db41)
-### Fine Tuned Model - [Link](https://huggingface.co/imanoop7/bert-phishing-detector)
-### Dataset - [Link](https://huggingface.co/imanoop7/bert-phishing-detector)
 
 ## Project Structure
 
@@ -44,6 +39,12 @@ The base model used is `bert-base-uncased`, which is fine-tuned for binary class
 ## Results
 
 After fine-tuning, the model's performance can be evaluated using accuracy and AUC metrics. Refer to the output of `main.py` for detailed results.
+
+## Additional Resource
+
+### My Detailed Article - [Link To Article](https://medium.com/@mauryaanoop3/fine-tuning-bert-for-phishing-url-detection-a-beginners-guide-619fad27db41)
+### Fine Tuned Model - [Link](https://huggingface.co/imanoop7/bert-phishing-detector)
+### Dataset - [Link](https://huggingface.co/imanoop7/bert-phishing-detector)
 
 ## Contributing
 
